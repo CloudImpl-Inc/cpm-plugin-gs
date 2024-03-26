@@ -1,7 +1,7 @@
 {
-  "name": "plugin-name",
+  "name": "${{ cpm.plugin-name-full }}",
   "version": "1.0.0",
-  "description": "plugin-description",
+  "description": "${{ cpm.plugin-description }}",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -16,12 +16,12 @@
     "cpm",
     "plugin"
   ],
-  "author": "plugin-arthur",
+  "author": "${{ cpm.plugin-arthur }}",
   "license": "MIT",
-  "repository": "plugin-repo",
-  "homepage": "plugin-repo#readme",
+  "repository": "${{ cpm.plugin-repo }}",
+  "homepage": "${{ cpm.plugin-repo }}#readme",
   "dependencies": {
-    "@cloudimpl-inc/cpm": "^2.0.0"
+    "@cloudimpl-inc/cpm": "^2.27.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.28",

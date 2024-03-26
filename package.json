@@ -1,5 +1,5 @@
 {
-  "name": "cpm-plugin-gs",
+  "name": "cpm-plugin-root",
   "private": true,
   "workspaces": [
     "plugin"

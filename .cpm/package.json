@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "${{ cpm.plugin-name-full }}": "file:../plugin"
+  }
+}
